@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_custom_code_scripts",
+  "info": {
+    "displayName": "CustomCodeScript",
+    "icon": "qrcode"
+  },
+  "options": {},
+  "attributes": {
+    "uniqueId" : {
+      "type" : "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "code": {
+      "type": "text"
+    }
+  }
+}

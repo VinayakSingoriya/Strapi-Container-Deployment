@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_plans",
+  "info": {
+    "displayName": "plan"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "freeText": {
+      "type": "string"
+    },
+    "freeCheck": {
+      "type": "boolean"
+    },
+    "startupText": {
+      "type": "string"
+    },
+    "startupCheck": {
+      "type": "boolean"
+    },
+    "growthText": {
+      "type": "string"
+    },
+    "growthCheck": {
+      "type": "boolean"
+    },
+    "enterpriseText": {
+      "type": "string"
+    },
+    "enterpriseCheck": {
+      "type": "boolean"
+    }
+  }
+}

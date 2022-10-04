@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_scripts",
+  "info": {
+    "displayName": "Script",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "uniqueId" : {
+      "type" : "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "src": {
+      "type": "text"
+    }
+  }
+}

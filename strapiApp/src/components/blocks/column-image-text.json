@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_column_image_texts",
+  "info": {
+    "displayName": "ColumnImageText",
+    "icon": "divide"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "containsArrow" : {
+      "type" :"boolean"
+    },
+    "ColumnCard": {
+      "displayName": "ColumnCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.column-card"
+    }
+  }
+}

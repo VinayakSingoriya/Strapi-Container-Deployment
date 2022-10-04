@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_successes",
+  "info": {
+    "singularName": "customer-success",
+    "pluralName": "customer-successes",
+    "displayName": "customer-success",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "script": {
+      "displayName": "Script",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.script"
+    },
+    "codeScript": {
+      "displayName": "CustomCodeScript",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.custom-code-script"
+    },
+    "label": {
+      "type": "string"
+    },
+    "pageTitle" : {
+      "type" : "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "borderColor" : {
+      "type" : "component",
+      "component" : "shared.theme",
+      "repeatable" : false
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "isImageRight": {
+      "type": "boolean"
+    },
+    "imagePC": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-single"
+    },
+    "statsData": {
+      "displayName": "stat",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "sideBar": {
+      "displayName": "sideBar",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.side-bar"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.testimonial-card"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

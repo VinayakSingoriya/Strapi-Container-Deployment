@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_featured_podcasts",
+  "info": {
+    "displayName": "featuredPodcast",
+    "icon": "blog"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "podcast": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::podcast.podcast"
+    }
+  }
+}

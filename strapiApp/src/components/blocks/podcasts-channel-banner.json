@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_podcasts_channel_banners",
+  "info": {
+    "displayName": "PodcastsChannelBanner",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "listenOnImages" : {
+      "type" : "component",
+      "component" : "shared.image-link",
+      "repeatable" : true
+    }
+  }
+}

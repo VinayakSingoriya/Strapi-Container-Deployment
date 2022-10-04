@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_vertical_columns",
+  "info": {
+    "displayName": "VerticalColumn",
+    "icon": "text-width"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-single"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_stats",
+  "info": {
+    "displayName": "stat",
+    "icon": "sort-numeric-up-alt"
+  },
+  "options": {},
+  "attributes": {
+    "stat": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.theme"
+    }
+  }
+}

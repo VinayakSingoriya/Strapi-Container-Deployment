@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "integrations",
+  "info": {
+    "singularName": "integration",
+    "pluralName": "integrations",
+    "displayName": "integration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "script": {
+      "displayName": "Script",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.script"
+    },
+    "codeScript": {
+      "displayName": "CustomCodeScript",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.custom-code-script"
+    },
+    "name": {
+      "type": "string"
+    },
+
+    "iconImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-single"
+    },
+    "overview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.hero-v2"
+    },
+    "mainContent": {
+      "type": "component",
+      "component": "blocks.ctav-3",
+      "repeatable": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.info-cards-v1"
+    },
+    "integrations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.intergrations-section"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.logos-v1"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.testimonials"
+    }
+  }
+}

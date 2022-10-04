@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "request_a_demos",
+  "info": {
+    "singularName": "request-a-demo",
+    "pluralName": "request-a-demos",
+    "displayName": "Request A Demo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "script": {
+      "displayName": "Script",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.script"
+    },
+    "codeScript": {
+      "displayName": "CustomCodeScript",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.custom-code-script"
+    },
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.case-study-cards",
+        "blocks.column-image-text",
+        "blocks.compliance-content",
+        "blocks.cta-section",
+        "blocks.ctav-3",
+        "blocks.faq",
+        "blocks.featured-case-study",
+        "blocks.hero-v1",
+        "blocks.hero-v2",
+        "blocks.hero-v3",
+        "blocks.info-cards-v1",
+        "blocks.info-cards-v2",
+        "blocks.info-cards-v3",
+        "blocks.intergrations-section",
+        "blocks.logos-v1",
+        "blocks.logos-v2",
+        "blocks.logos-v3",
+        "blocks.pricing-hero",
+        "blocks.pricing-table",
+        "blocks.standalone-cta",
+        "blocks.testimonial-v2",
+        "blocks.testimonials-grid",
+        "blocks.testimonials",
+        "blocks.vertical-column"
+      ]
+    }
+  }
+}

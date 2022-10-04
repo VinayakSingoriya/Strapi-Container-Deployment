@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_nav_links",
+  "info": {
+    "displayName": "navLink"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "isDropdown": {
+      "type": "boolean"
+    },
+    "dropdowns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.nav-dropdown-link"
+    }
+  }
+}

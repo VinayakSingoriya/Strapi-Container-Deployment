@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.column-image-text",
+        "blocks.hero-v2",
+        "blocks.info-cards-v1",
+        "blocks.logos-v1",
+        "blocks.logos-v2",
+        "blocks.testimonials",
+        "blocks.intergrations-section",
+        "blocks.vertical-column",
+        "blocks.standalone-cta",
+        "blocks.logos-v3",
+        "blocks.hero-v1",
+        "blocks.cta-section",
+        "blocks.info-cards-v3",
+        "blocks.info-cards-v2",
+        "blocks.pricing-hero",
+        "blocks.pricing-table",
+        "blocks.testimonial-v2",
+        "blocks.faq",
+        "blocks.case-study-cards",
+        "blocks.featured-case-study",
+        "blocks.ctav-3",
+        "blocks.testimonials-grid",
+        "blocks.hero-v3",
+        "blocks.compliance-content",
+        "blocks.footer",
+        "blocks.featured-podcast",
+        "blocks.our-hosts",
+        "blocks.recent-podcasts",
+        "blocks.podcasts-channel-banner",
+        "blocks.add-ons"
+      ]
+    },
+    "seo": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "script": {
+      "displayName": "Script",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.script"
+    },
+    "codeScript": {
+      "displayName": "CustomCodeScript",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.custom-code-script"
+    }
+  }
+}

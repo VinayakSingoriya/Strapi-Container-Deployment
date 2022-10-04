@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_colored_info_cards",
+  "info": {
+    "displayName": "ColoredInfoCard",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "color" : {
+      "type" : "component",
+      "component" : "shared.theme",
+      "repeatable" : false
+    },
+    "picture" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "heading" : {
+      "type" : "string"
+    },
+    "description" : {
+      "type" : "text"
+    }
+  }
+}

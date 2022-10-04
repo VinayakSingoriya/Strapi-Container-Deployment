@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_case_study_cards",
+  "info": {
+    "displayName": "CaseStudyCards",
+    "icon": "suitcase"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::customer-success.customer-success"
+    }
+  }
+}

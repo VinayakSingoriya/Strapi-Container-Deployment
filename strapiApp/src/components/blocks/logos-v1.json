@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_logos_v1s",
+  "info": {
+    "displayName": "LogosV1",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "logos" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : true
+    }
+  }
+}

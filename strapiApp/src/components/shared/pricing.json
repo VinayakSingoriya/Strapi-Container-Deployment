@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "money-bill-wave",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "originalPrice": {
+      "type": "biginteger"
+    },
+    "sellingPrice": {
+      "type": "biginteger"
+    },
+    "planDuration": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    },
+    "isCurrent": {
+      "type": "boolean"
+    }
+  }
+}

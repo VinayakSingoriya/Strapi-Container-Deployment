@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_nav_dropdown_links",
+  "info": {
+    "displayName": "navDropdownLink",
+    "icon": "door-closed"
+  },
+  "options": {},
+  "attributes": {
+    "link" : {
+      "type" : "component",
+      "component" : "shared.link-with-icon",
+      "repeatable" : false
+    },
+    "hasSubLinks" : {
+      "type" : "boolean"
+    },
+    "sublinks" : {
+      "type" : "component",
+      "component" : "shared.link-with-icon",
+      "repeatable" : true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_pricing_tables",
+  "info": {
+    "displayName": "pricingTable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "table" : {
+      "type" : "component",
+      "component" : "shared.table",
+      "repeatable" : true
+    }
+  }
+}

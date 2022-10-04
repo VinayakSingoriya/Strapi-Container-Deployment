@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "file-signature"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "footerV1",
+        "footerV2"
+      ]
+    }
+  }
+}

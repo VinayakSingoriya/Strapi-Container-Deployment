@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_pod_cast_details",
+  "info": {
+    "displayName": "podCastDetails",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "aboutSpeaker" : {
+      "type" : "component",
+      "component" : "shared.user-profile",
+      "repeatable" : true
+    },
+
+    "aboutEpisode" : {
+      "type" : "richtext"
+    },
+    "transcript" : {
+      "type" : "richtext"
+    }
+  }
+}

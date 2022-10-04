@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_featured_case_studies",
+  "info": {
+    "displayName": "FeaturedCaseStudy",
+    "icon": "poll-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "caseStudy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::customer-success.customer-success"
+    }
+  }
+}

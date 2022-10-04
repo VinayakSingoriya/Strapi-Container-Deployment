@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_testimonial_v2s",
+  "info": {
+    "displayName": "TestimonialV2",
+    "icon": "id-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

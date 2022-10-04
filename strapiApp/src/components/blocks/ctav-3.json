@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_ctav_3s",
+  "info": {
+    "displayName": "CTAV3",
+    "icon": "wave-square"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "buttons" : {
+      "type" : "component",
+      "component" : "common.button",
+      "repeatable" : true
+    }
+  }
+}

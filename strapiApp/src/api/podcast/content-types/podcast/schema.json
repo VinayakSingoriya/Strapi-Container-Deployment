@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcasts",
+  "info": {
+    "singularName": "podcast",
+    "pluralName": "podcasts",
+    "displayName": "podcast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "embedCode": {
+      "type": "text"
+    },
+    "featuredImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-single"
+    },
+    "listenOnImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-link"
+    },
+    "cardImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.image-single"
+    },
+    "podcastDetail": {
+      "displayName": "podCastDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.pod-cast-details"
+    },
+    "recentPodcasts": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::podcast.podcast"
+    },
+    "podcastChannelBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.podcasts-channel-banner"
+    },
+    "script": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.script"
+    },
+    "codeScript": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.custom-code-script"
+    }
+  }
+}

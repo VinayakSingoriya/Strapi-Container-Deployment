@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_standalone_ctas",
+  "info": {
+    "displayName": "StandaloneCTA",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "showArrow": {
+      "type": "boolean"
+    },
+    "isArrowRight": {
+      "type": "boolean"
+    },
+    "buttons" : {
+      "type" : "component",
+      "repeatable" : true,
+      "component" : "common.button"
+
+    }
+  }
+}

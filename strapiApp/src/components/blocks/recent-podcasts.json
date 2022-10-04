@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_recent_podcasts",
+  "info": {
+    "displayName": "RecentPodcasts",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "podcasts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::podcast.podcast"
+    }
+  }
+}

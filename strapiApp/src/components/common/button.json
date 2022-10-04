@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_common_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "demo",
+        "login",
+        "signup",
+        "bg-green",
+        "outline-green"
+      ]
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

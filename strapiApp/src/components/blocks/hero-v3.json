@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_hero_v3s",
+  "info": {
+    "displayName": "HeroV3",
+    "icon": "dice-d20"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttons" : {
+      "type" : "component",
+      "component" : "common.button",
+      "repeatable" : true
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "multichannels",
+  "info": {
+    "singularName": "multichannel",
+    "pluralName": "multichannels",
+    "displayName": "Multichannel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.case-study-cards",
+        "blocks.column-image-text",
+        "blocks.compliance-content",
+        "blocks.cta-section",
+        "blocks.ctav-3",
+        "blocks.faq",
+        "blocks.featured-case-study",
+        "blocks.footer",
+        "blocks.hero-v1",
+        "blocks.hero-v2",
+        "blocks.hero-v3",
+        "blocks.info-cards-v1",
+        "blocks.info-cards-v2",
+        "blocks.info-cards-v3",
+        "blocks.intergrations-section",
+        "blocks.logos-v1",
+        "blocks.logos-v2",
+        "blocks.logos-v3",
+        "blocks.pricing-hero",
+        "blocks.pricing-table",
+        "blocks.standalone-cta",
+        "blocks.testimonial-v2",
+        "blocks.testimonials-grid",
+        "blocks.testimonials",
+        "blocks.vertical-column"
+      ]
+    },
+    "script": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.script"
+    },
+    "codeScript": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.custom-code-script"
+    }
+  }
+}

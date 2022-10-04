@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_blocks_pricing_heroes",
+  "info": {
+    "displayName": "PricingHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "availablePlanDurations": {
+      "displayName": "text",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    },
+    "discountImage" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "pricingCards": {
+      "displayName": "pricingCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.pricing-cards"
+    },
+    "tagline" : {
+      "type" : "text"
+    }
+  }
+}

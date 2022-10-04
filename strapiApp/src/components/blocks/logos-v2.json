@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_logos_v2s",
+  "info": {
+    "displayName": "LogosV2",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "logos" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : true
+    }
+  }
+}

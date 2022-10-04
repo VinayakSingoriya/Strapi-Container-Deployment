@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_our_hosts",
+  "info": {
+    "displayName": "OurHosts",
+    "icon": "diagnoses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "hosts" : {
+      "type" : "component",
+      "component" : "shared.user-profile",
+      "repeatable" : true
+    },
+
+    "descriptionTitle" : {
+      "type" : "text"
+    },
+
+    "descriptionContent" : {
+      "type" : "richtext"
+    } 
+  }
+}

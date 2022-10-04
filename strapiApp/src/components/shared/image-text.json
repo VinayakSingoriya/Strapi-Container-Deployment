@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_image_texts",
+  "info": {
+    "displayName": "ImageText",
+    "icon": "border-none"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    }
+  }
+}

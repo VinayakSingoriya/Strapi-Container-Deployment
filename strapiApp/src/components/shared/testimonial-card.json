@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_testimonial_cards",
+  "info": {
+    "displayName": "TestimonialCard",
+    "icon": "id-card-alt"
+  },
+  "options": {},
+  "attributes": {
+    "overview": {
+      "type": "string"
+    },
+    "review": {
+      "type": "text"
+    },
+    "person" : {
+      "type" : "component",
+      "component" : "shared.user-profile",
+      "repeatable" : false
+    }
+  }
+}

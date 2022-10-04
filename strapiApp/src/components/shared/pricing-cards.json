@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_pricing_cards",
+  "info": {
+    "displayName": "pricingCards"
+  },
+  "options": {},
+  "attributes": {
+    "originalPrice" : {
+      "type" : "string"
+    },
+    "sellingPrice" : {
+      "type" : "string"
+    },
+    "planType" : {
+      "type" : "string"
+    },
+    "priceText" : {
+      "type" : "string"
+    },
+    "isPopular" : {
+      "type" : "boolean"
+    },
+
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlights" : {
+      "type" : "component",
+      "component" : "shared.text",
+      "repeatable" : true
+    },
+    "isFeaturedPlan": {
+      "type" : "boolean"
+    }
+
+  }
+}

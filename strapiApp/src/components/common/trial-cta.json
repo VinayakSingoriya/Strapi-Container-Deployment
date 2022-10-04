@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_trial_ctas",
+  "info": {
+    "displayName": "TrialCTA",
+    "icon": "democrat"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "button" : {
+      "type" : "component",
+      "component" : "common.button",
+      "repeatable" : false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_tables",
+  "info": {
+    "displayName": "table",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "tableTitle" : {
+      "type" : "string"
+    },
+    "plans": {
+      "type": "component",
+      "component" : "shared.plan-wrapper",
+      "repeatable" : true
+    }
+  }
+}

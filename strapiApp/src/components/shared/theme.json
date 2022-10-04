@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_themes",
+  "info": {
+    "displayName": "theme",
+    "icon": "eye-dropper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "op-warm-white",
+        "op-deep-pink",
+        "op-indigo",
+        "op-red",
+        "op-green",
+        "op-yellow-orange",
+        "op-dark-grey",
+        "op-blue",
+        "op-main-gradient",
+        "op-pure-black",
+        "op-light-grey",
+        "op-light-green",
+        "op-light-blue",
+        "op-light-pink",
+        "op-white"
+      ]
+    }
+  }
+}

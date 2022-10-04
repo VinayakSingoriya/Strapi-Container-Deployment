@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_info_cards_v2s",
+  "info": {
+    "displayName": "InfoCardsV2"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "cards": {
+      "displayName": "ColoredInfoCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.colored-info-card"
+    }
+  }
+}

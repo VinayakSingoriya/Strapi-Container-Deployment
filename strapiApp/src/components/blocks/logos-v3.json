@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_logos_v3s",
+  "info": {
+    "displayName": "LogosV3",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "logos": {
+      "displayName": "ImageText",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-text"
+    }
+  }
+}

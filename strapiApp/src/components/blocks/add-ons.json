@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_add_ons",
+  "info": {
+    "displayName": "AddOns",
+    "icon": "file-video"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "cards": {
+      "displayName": "addonCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.addon-card"
+    }
+  }
+}

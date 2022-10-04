@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_common_column_cards",
+  "info": {
+    "displayName": "ColumnCard",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "showArrow": {
+      "type": "boolean"
+    },
+    "isImageRight": {
+      "type": "boolean"
+    },
+    "image" : {
+      "type" : "component",
+      "repeatable" : false,
+      "component" : "common.image-single"
+
+    },
+    "buttons" : {
+      "type" : "component",
+      "repeatable" : true,
+      "component" : "common.button"
+    }
+  }
+}

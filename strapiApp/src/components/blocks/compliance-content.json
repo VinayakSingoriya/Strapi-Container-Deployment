@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_compliance_contents",
+  "info": {
+    "displayName": "complianceContent",
+    "icon": "water"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

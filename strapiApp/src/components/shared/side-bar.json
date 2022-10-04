@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_side_bars",
+  "info": {
+    "displayName": "sideBar",
+    "icon": "barcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "text"
+    },
+    "headquarter": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "keyFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    },
+
+    "button" : {
+      "type" : "component",
+      "component" : "common.button",
+      "repeatable" : false
+    }
+  }
+}

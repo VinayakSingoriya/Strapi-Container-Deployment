@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_user_profiles",
+  "info": {
+    "displayName": "UserProfile",
+    "icon": "user-clock"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "text"
+    },
+    "picture" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "description" : {
+      "type" : "richtext"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_cta_sections",
+  "info": {
+    "displayName": "CTASection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-single"
+    },
+    "buttons" : {
+      "type" : "component",
+      "repeatable" : true,
+      "component" : "common.button"
+    },
+    "text" : {
+      "type" : "text"
+    }
+  }
+}

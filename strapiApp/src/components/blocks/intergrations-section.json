@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_intergrations_sections",
+  "info": {
+    "displayName": "IntergrationsSection",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "integrations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::integration.integration"
+    }
+  }
+}

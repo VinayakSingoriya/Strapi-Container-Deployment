@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_blocks_hero_v1s",
+  "info": {
+    "displayName": "HeroV1",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "showForm": {
+      "type": "boolean"
+    },
+    "trialCTA": {
+      "displayName": "TrialCTA",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.trial-cta"
+    },
+    "imagePC" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "imageMobile" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "isImageRight" : {
+      "type" : "boolean"
+    }
+  }
+}

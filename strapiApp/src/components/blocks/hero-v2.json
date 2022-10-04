@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_hero_v2s",
+  "info": {
+    "displayName": "HeroV2",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttons" : {
+      "type" : "component",
+      "component" : "common.button",
+      "repeatable" : true
+    },
+    "imagePC" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "imageMobile" : {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    },
+    "isImageRight" : {
+      "type" : "boolean"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_info_cards_v3s",
+  "info": {
+    "displayName": "InfoCardsV3"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "cards": {
+      "displayName": "LabelCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.label-cards"
+    }
+  }
+}

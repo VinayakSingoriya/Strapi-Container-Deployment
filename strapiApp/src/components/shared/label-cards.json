@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_label_cards",
+  "info": {
+    "displayName": "LabelCards",
+    "icon": "eye-dropper"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link" : {
+      "displayName" : "LinkWithIcon",
+      "type" : "component",
+      "component" : "shared.link-with-icon",
+      "repeatable" : false
+    }
+  }
+}

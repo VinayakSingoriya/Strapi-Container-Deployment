@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_info_cards_v1s",
+  "info": {
+    "displayName": "InfoCardsV1",
+    "icon": "sim-card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "sectionId" : {
+      "type" : "string"
+    },
+    "cards": {
+      "displayName": "InfoCardPlain",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-card-plain"
+    }
+  }
+}

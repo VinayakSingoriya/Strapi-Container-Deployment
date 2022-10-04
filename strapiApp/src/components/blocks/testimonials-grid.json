@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_testimonials_grids",
+  "info": {
+    "displayName": "TestimonialsGrid",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId" : {
+      "type" : "string"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

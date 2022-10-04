@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  strapiapp:
+    restart: always
+    container_name: strapi_container
+    build: ./strapiApp
+    expose:
+      - 1337
+  nginx:
+    build: ./nginx
+    container_name: nginx_container
+    ports:
+      - '80:80'
+    depends_on:
+      - strapiapp
+    restart: always

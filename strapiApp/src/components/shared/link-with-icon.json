@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_link_with_icons",
+  "info": {
+    "displayName": "LinkWithIcon",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title" : {
+      "type" : "string"
+    },
+    "href" : {
+      "type" : "string"
+    },
+    "icon": {
+      "type" : "component",
+      "component" : "common.image-single",
+      "repeatable" : false
+    }
+    
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "stroopwafel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

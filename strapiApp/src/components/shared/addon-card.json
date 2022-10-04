@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_addon_cards",
+  "info": {
+    "displayName": "addonCard",
+    "icon": "deaf"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-single"
+    },
+    "description": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
